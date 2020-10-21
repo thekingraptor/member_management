@@ -8,6 +8,8 @@ import errno
 import logging
 
 '''
+To define a new area, use the following site to create a zip list
+https://www.freemaptools.com/find-zip-codes-inside-user-defined-area.htm
 '''
 
 logger = logging.getLogger(__name__)
