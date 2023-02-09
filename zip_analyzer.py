@@ -122,13 +122,10 @@ def main(args):
     else:
         print('Unknown file extension: "{}"'.format(extension))
 
-    if not args.city:
-        print('#' * 50)
-        print(f'----- Other -----')
-        for member in other:
-            print(','.join(member))
-        print('#' * 50)
     print('FNAME,LNAME,email,tags')
+    if not args.city:
+        for member in other:
+            print(','.join(member),',')
     if args.city == 'cincy' or not args.city:
         for member in cincy:
             print(','.join(member),',cincinnati')
