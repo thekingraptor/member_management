@@ -62,7 +62,7 @@ def main(args):
             member_num, renew_date, first_name, middle_name, last_name, company, address_1, address_2, city, state, mzip, country, email, home_phone, work_phone, mobile_phone, original_join_date = row_data
         except:
             try:
-                mtype, member_number, paid_thru, autorenew, first_name, middle_name, last_name, company, address_1, address_2, city, state_province, mzip, country, home_phone, work_phone, mobile_phone, email, join_date, original_join_date, member_type, chapter, last_updated, bmw_model1, bmw_model1year, bmw_model2, bmw_model2year, primary_chapter, chapter2, chapter3, chapter4, chapter5, chapter6, chapter7, chapter8, chapter9, chapter10, identification_flag, numeric_member_number, account_number, referred_by, paid_thru_date, newsletter_preference, birth_dt = row_data
+                mtype, member_number, paid_thru, autorenew, first_name, middle_name, last_name, company, address_1, address_2, city, state_province, mzip, country, home_phone, work_phone, mobile_phone, email, join_date, original_join_date, member_type, chapter, last_updated, bmw_model1, bmw_model1year, bmw_model2, bmw_model2year, primary_chapter, chapter2, chapter3, chapter4, chapter5, chapter6, chapter7, chapter8, chapter9, chapter10, identification_flag, numeric_member_number, account_number, referred_by, paid_thru_date, newsletter_preference, gender, birth_dt = row_data
             except:
                 print('Can\'t identify data, skipping {}'.format(row_data))
         if email:
